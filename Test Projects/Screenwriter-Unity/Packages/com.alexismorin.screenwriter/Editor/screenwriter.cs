@@ -8,6 +8,7 @@ public class screenwriter : MonoBehaviour {
 
     static List<string> parsedScrenplay = new List<string> ();
 
+    static Timeline currentTimeline;
     static string currentLocation;
     static string currentTimeOfDay;
     static string currentCharacter;
@@ -26,16 +27,21 @@ public class screenwriter : MonoBehaviour {
         using (reader) {
             do {
                 line = reader.ReadLine ();
-                parsedScrenplay.Add (line);
-                print (line);
-                // m_codeContents += line + "\n";
+                if (System.String.IsNullOrEmpty (line) == false) {
+                    ParseLine (line);
+                }
             }
             while (line != null);
             reader.Close ();
         }
     }
 
-    private static void ParseLine () {
+    private static void ParseLine (string line) {
+        print (line);
+    }
 
+    private CreateTimeline () {
+        currentTimeline = new Timeline ();
+        AssetDatabase.CreateAsset (currentTimeline, "Assets/MyMaterial.mat");
     }
 }
