@@ -1,0 +1,12 @@
+{
+    "name": "com.alexismorin.screenwriter",
+    "displayName": "Screenwriter",
+    "version": "1.0.0",
+    "unity": "2019.2",
+    "description": "Parse industry-standard screenplays into timelines",
+    "keywords": [
+        "timeline",
+        "sequencing"
+    ],
+    "category": "Open-Source"
+}
