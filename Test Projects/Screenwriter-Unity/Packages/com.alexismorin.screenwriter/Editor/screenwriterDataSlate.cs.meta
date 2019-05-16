@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dad34c9d9bcd0b245b8a0d2f919c9af1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - characterPrefab: {fileID: 3623369090482494648, guid: 42926c3518def034ba89caec9937316b,
+      type: 3}
+  - locationPrefab: {fileID: 5534665080464175383, guid: 15da9c2269c404e42bbfcb4dd49dcd96,
+      type: 3}
+  - cameraPrefab: {fileID: 4252400313921424504, guid: ccefafbee2e5ab74b94d488d2c2a9adc,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
